@@ -17,8 +17,9 @@ WriteMakefile(
         CPAN::Indexer::Mirror
         Class::Singleton
         Compress::Zlib
-        Crypt::Eksblowfish::Bcrypt
-        Crypt::URandom
+        Crypt::Passphrase
+        Crypt::Passphrase::Argon2
+        Crypt::Passphrase::Bcrypt::Compat
         Cwd
         DB_File
         DBD::mysql

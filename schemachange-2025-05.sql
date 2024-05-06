@@ -1,0 +1,1 @@
+ALTER TABLE usertable CHANGE password VARCHAR(255) DEFAULT NULL;
